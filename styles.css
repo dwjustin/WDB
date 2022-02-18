@@ -61,9 +61,6 @@
     float: left;
   }
   
-  .gun{
-
-  }
   
   .circle {
     border-radius: 50%;
@@ -114,18 +111,30 @@
     background-color: blue;
   }
 
-  .mexico {
-    height: 500px;
-    width: 500px;
-    border-style: solid;
-    margin-bottom: 5rem;
-    overflow: hidden;
+  .green_horiz{
+    width: 33.3%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    box-sizing: border-box;
   }
-  .mexico>img{
-    object-fit: cover;
-    width: 100%;
-    height: auto;
 
+  #mexico {
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    float: left;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  
+  .red_horiz_{
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    float: right;
+    box-sizing: border-box;
   }
   .blue_square{
     float: left;
