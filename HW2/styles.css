@@ -1,0 +1,218 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .blue_horiz{
+    width: 33.3%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    box-sizing: border-box;
+
+  }
+  .yellow_horiz{
+    width: 33.3%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: yellow;
+    float: left;
+    
+  }
+  .red_horiz{
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    box-sizing: border-box;
+    float: left;
+  }
+  
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  .white_twovert{
+    height: 50%;
+    background-color: white;
+  }
+  .red_twovert{
+    height: 50%;
+    
+    display: block;
+    background-color: red;
+    
+  }
+
+  .red_threevert{
+    height: 33.3%;
+    background-color: red;
+  }
+  .white_threevert{
+    height: 33.3%;
+    background-color: white;
+  }
+  .blue_threevert{
+    height: 33.3%;
+    background-color: rgb(24, 183, 223);
+  }
+
+  .red_fourvert{
+    height: 16.5%;
+    background-color: red;
+  }
+
+  .white_fourvert{
+    height: 16.5%;
+    background-color: white;
+  }
+
+  .blue_fourvert{
+    height: 34%;
+    background-color: blue;
+  }
+
+  .green_horiz{
+    width: 33.3%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    box-sizing: border-box;
+  }
+
+  #mexico {
+    height: 90px;
+    width: 90px;
+    display: block;
+    margin: auto;
+    float: left;
+    margin-top: 100px;
+    margin-left: 40px;
+  }
+  
+  .red_horiz_{
+    width: 33.3%;
+    height: 100%;
+    background-color: red;
+    float: right;
+    box-sizing: border-box;
+  }
+  .blue_square{
+    float: left;
+    background-color: royalblue;
+    width: 45%;
+    height: 53.5%;   
+    position: relative; 
+  }
+
+  .white_horiz{
+    
+    background-color: white;
+    width: 30px;
+    height: 162px;
+    margin-left: 90px;   
+    position: absolute; 
+    
+  }
+  .white_vert{
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    width: 226px;
+    height: 30px;
+    margin-top: 60px;
+    
+  }
+
+  .small_blue{
+    height: 5.5%;
+    background-color: royalblue;
+  }
+
+  .small_white{
+    height: 6.5%;
+    background-color: white;
+  }
+
+  
+  
+  
+  .dot_red{
+    position: relative;
+    border-radius: 100px 100px 0px 0px;
+    height: 25%;
+    width: 30%;
+    background-color: red;
+    margin: auto;
+    margin-top:16%;
+  }
+
+  .dot_blue{
+    position: relative;
+    border-radius: 0px 0px 100px 100px;
+    height: 25%;
+    width: 30%;
+    margin: auto;
+    background-color: blue;
+  }
+
+  .dot_red_small{
+    position: absolute;
+    border-radius:  0px 0px 100px 100px;
+    height: 40px;
+    width: 75px;
+    background-color: red;
+    margin: auto;
+    margin-left: 175.2px;
+    z-index: 2;
+  }
+  .dot_blue_small{
+    position: absolute;
+    border-radius: 100px 100px 0px 0px;
+    height: 40px;
+    width: 75px;
+    background-color: blue;
+    margin-top: -40px;
+    margin-left: 250px;
+    z-index: 2;
+  }
+
