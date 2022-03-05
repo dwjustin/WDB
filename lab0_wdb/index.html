@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp Demo</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <button id="toggle" class="moon">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M195 125c0-26.3 5.3-51.3 14.9-74.1C118.7 73 51 155.1 51 253c0 114.8 93.2 208 208 208 97.9 0 180-67.7 202.1-158.9-22.8 9.6-47.9 14.9-74.1 14.9-106 0-192-86-192-192z"></path>
+        </svg>
+    </button>
+    <div class="card">
+        <h1>오늘 날씨는 어떻냐</h1>
+        <div class="search">
+            <input type="text" class="search-bar" placeholder="Search">
+            <button class="search-button">ㄱㄷ</button>
+        </div>
+        <div class="weather">
+            <div class="location">
+                <div class="location-icon"></div>
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M11.42,21.815C11.594,21.938,11.797,22,12,22s0.406-0.062,0.58-0.185C12.884,21.598,20.029,16.44,20,10 c0-4.411-3.589-8-8-8S4,5.589,4,9.996C3.971,16.44,11.116,21.598,11.42,21.815z M12,4c3.309,0,6,2.691,6,6.004 c0.021,4.438-4.388,8.423-6,9.731C10.389,18.427,5.979,14.442,6,10C6,6.691,8.691,4,12,4z"></path><path d="M11 14L13 14 13 11 16 11 16 9 13 9 13 6 11 6 11 9 8 9 8 11 11 11z"></path></svg>
+                <h2 class="city">Berkeley, US</h2>
+            </div>
+            <div class="weather-description">
+                <div class="description">
+                    <img src="http://openweathermap.org/img/wn/04d@2x.png" alt="" class="icon">
+                    <div class="contents"></div>
+                </div>
+
+            </div>
+            <div class="temp">
+                <p>53 F</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
