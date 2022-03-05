@@ -1,2 +1,3 @@
 # WDB
-Introduction to full stack development class activity
+Introduction to full stack development
+My Work
